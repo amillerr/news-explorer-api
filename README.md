@@ -1,27 +1,31 @@
+# Проектная работа - "News Explorer API".
 
-[![N|Solid](https://pictures.s3.yandex.net/animation_topic/logo.svg)](https://praktikum.yandex.ru/)
-
-# Сервер для дипломной работы "News-Explorer API"
-
-# Описание проекта
+## Описание проекта:
 
 News Explorer API это express-сервер, с помощью которого можно зарегистрироваь и авторизовать пользователей, создать, удалить и возвращать статьи, которые пользователь сохранил в личном кабинете.
 
-### Домен для обращения к API:
+## Функционал:
 
-- https://api.aksenovnews.students.nomoreparties.space
+* Регистрация/авторизация пользователей
+* Создание статей
+* Удаление статей
 
-### Используемые технологии
-- Node.js
-- Express.js
-- MongoDB
-- Mongoose
-- Nginx
-- Плагины и дополнения к Node.js
+## Используемые технологии
 
-### Запуск проекта
+* Node.js
+* Express.js
+* MongoDB
+* Mongoose
+* Nginx
+* Дополнительные плагины
 
-- Клонирование репозитория командой : git clone https://github.com/amillerr/news-explorer-api.git
-- Установка NPM зависимостей командой : npm i
-- Запуск проекта командой : npm run start 
-- Запуск проекта командой c hot-reload : npm run dev
+## Инструкция по развёртыванию:
+
+* Клонирование репозитория командой : git clone https://github.com/amillerr/news-explorer-api.git
+* Установить NPM-зависимости командой : npm install
+* Открыть проект командой : npm run start
+* Открыть проект с hot-reload командой : npm run dev
+
+### Статус проекта:
+
+* Заверщен
